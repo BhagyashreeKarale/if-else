@@ -1,20 +1,20 @@
-num1=int(input("enter 1st value"))
-num2=int(input("enter 2nd value"))
-operator=(input("enter operator for num2our operation"))
+num1=int(input("Enter 1st value:\n"))
+num2=int(input("Enter 2nd value:\n"))
+operator=(input("Enter operator for your operation:\n"))
 if operator==("+"):
-    print("result of num2our addition is",num1+num2)
+    print("Result of your addition is",num1+num2)
 elif operator==("-"):
-    print("result of num2our substraction is",num1-num2)
+    print("Result of your substraction is",num1-num2)
 elif operator==("*"):
-    print("result of num2our multiplication is",num1*num2)
+    print("Result of your multiplication is",num1*num2)
 elif operator==("*"):
-    print("result of num2our division is",num1/num2)
+    print("Result of your division is",num1/num2)
 elif operator==("/"):
-    print("result of num2our floor division is",num1//num2)
+    print("Result of your floor division is",num1//num2)
 elif operator==("//"):
-    print("remainder of num2our division is",num1%num2)
+    print("Remainder of your division is",num1%num2)
 elif operator==("**"):
     print(num1,"raised to",num2,"is",num1**num2)
 else:
-    print("please enter a valid operator or number")
+    print("Please enter a valid operator or number")
     

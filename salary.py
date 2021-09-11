@@ -1,6 +1,6 @@
-salary=int(input("enter your salary"))
-yos=int(input("enter number of years of service"))
+salary=int(input("Enter your salary:\n"))
+yos=int(input("Enter number of years of service:\n"))
 if yos>5:
-	print("you'll get bonus of",(5*salary)/100)
+	print("You'll get bonus of",(5*salary)/100)
 else:
-	print("you have to work for",5-yos,"more yoss to get bonus")
+	print("You have to work for",5-yos,"more years to get bonus")

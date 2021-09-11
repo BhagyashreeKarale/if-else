@@ -1,9 +1,9 @@
-length=int(input("enter length"))
-breadth=int(input("enter breadth"))
+length=int(input("Enter length:\n"))
+breadth=int(input("Enter breadth:\n"))
 if length==breadth:
-     print("it is a square")
+     print("It is a square")
 else:
-     print("it isn't a square")
+     print("It isn't a square")
 
 
 
